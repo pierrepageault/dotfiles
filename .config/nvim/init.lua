@@ -92,9 +92,6 @@ do
 	vim.o.tabstop = 2 -- Number of spaces tabs count for
 	vim.o.shiftwidth = 2 -- Size of an indent
 
-	-- lervag https://github.com/lervag/vimtex/issues/1020
-	vim.opt_local.formatoptions = "tcqronl1j"
-	vim.opt_local.textwidth = 79
 end
 
 -- ============================================================

@@ -13,16 +13,12 @@ do
 		store_selection_keys = "<Tab>",
 	})
 
-	-- `friendly-snippets` contains a variety of premade snippets.
-	--    See the README about individual language/framework/plugin snippets:
-	--    https://github.com/rafamadriz/friendly-snippets
-	--
-	--  vim.pack.add { 'https://github.com/rafamadriz/friendly-snippets' }
-	-- require('luasnip.loaders.from_vscode').lazy_load()
+    -- Charge les snippets personnalisés (format VS Code) déclarés dans
+    -- `~/.config/nvim/package.json`, trouvés via le runtimepath.
+    -- (friendly-snippets volontairement absent : snippets maison uniquement)
+    require("luasnip.loaders.from_vscode").lazy_load()
 
-	require("luasnip.loaders.from_vscode").lazy_load()
 
-	--{paths={vim.fn.stdpath("config") .. "/my-snippets/"}}
 	-- [[ Autocomplete Engine ]]
 	vim.pack.add({ { src = "https://github.com/saghen/blink.cmp", version = vim.version.range("1.*") } })
 	require("blink.cmp").setup({
