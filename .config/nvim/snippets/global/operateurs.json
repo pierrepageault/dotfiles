@@ -1,0 +1,230 @@
+{
+    "subscript": {
+        "prefix": "fd",
+        "body": "_{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "subscript",
+        "luasnip": {
+            "autotrigger": true,
+            "wordTrig": false
+        }
+    },
+    "superscript": {
+        "prefix": "df",
+        "body": "^{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "superscript",
+        "luasnip": {
+            "autotrigger": true,
+            "wordTrig": false
+        }
+    },
+    "frac": {
+        "prefix": "frac",
+        "body": "\\frac{${1:${TM_SELECTED_TEXT}}}{$2}$0",
+        "description": "frac (fraction)"
+    },
+    "dfrac": {
+        "prefix": "dfrac",
+        "body": "\\dfrac{${1:${TM_SELECTED_TEXT}}}{$2}$0",
+        "description": "dfrac (fraction en display style)"
+    },
+    "sqrt": {
+        "prefix": "sqrt",
+        "body": "\\sqrt{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "sqrt (racine carree)"
+    },
+    "binom": {
+        "prefix": "binom",
+        "body": "\\binom{${1:n}}{${2:k}}$0",
+        "description": "binom (coefficient binomial)"
+    },
+    "dbinom": {
+        "prefix": "dbinom",
+        "body": "\\dbinom{${1:n}}{${2:k}}$0",
+        "description": "dbinom (binomial display style)"
+    },
+    "overline": {
+        "prefix": "overline",
+        "body": "\\overline{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "overline"
+    },
+    "underline": {
+        "prefix": "underline",
+        "body": "\\underline{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "underline"
+    },
+    "overbrace": {
+        "prefix": "overbrace",
+        "body": "\\overbrace{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "overbrace"
+    },
+    "underbrace": {
+        "prefix": "underbrace",
+        "body": "\\underbrace{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "underbrace"
+    },
+    "overset": {
+        "prefix": "overset",
+        "body": "\\overset{${1:top}}{${2:${TM_SELECTED_TEXT}}}$0",
+        "description": "overset"
+    },
+    "underset": {
+        "prefix": "underset",
+        "body": "\\underset{${1:bottom}}{${2:${TM_SELECTED_TEXT}}}$0",
+        "description": "underset"
+    },
+    "text": {
+        "prefix": "text",
+        "body": "\\text{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "text"
+    },
+    "boldsymbol": {
+        "prefix": "boldsymbol",
+        "body": "\\boldsymbol{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "boldsymbol"
+    },
+    "lr(": {
+        "prefix": "lr(",
+        "body": "\\left(${1:${TM_SELECTED_TEXT}}\\right)$0",
+        "description": "\\left( ... \\right)"
+    },
+    "lr[": {
+        "prefix": "lr[",
+        "body": "\\left[${1:${TM_SELECTED_TEXT}}\\right]$0",
+        "description": "\\left[ ... \\right]"
+    },
+    "lr{": {
+        "prefix": "lr{",
+        "body": "\\left\\{${1:${TM_SELECTED_TEXT}}\\right\\}$0",
+        "description": "\\left\\{ ... \\right\\}"
+    },
+    "lr|": {
+        "prefix": "lr|",
+        "body": "\\left|${1:${TM_SELECTED_TEXT}}\\right|$0",
+        "description": "\\left| ... \\right| (valeur absolue)"
+    },
+    "sin": {
+        "prefix": "sin",
+        "body": "\\sin",
+        "description": "sin"
+    },
+    "cos": {
+        "prefix": "cos",
+        "body": "\\cos",
+        "description": "cos"
+    },
+    "tan": {
+        "prefix": "tan",
+        "body": "\\tan",
+        "description": "tan"
+    },
+    "cot": {
+        "prefix": "cot",
+        "body": "\\cot",
+        "description": "cot"
+    },
+    "arcsin": {
+        "prefix": "arcsin",
+        "body": "\\arcsin",
+        "description": "arcsin"
+    },
+    "arccos": {
+        "prefix": "arccos",
+        "body": "\\arccos",
+        "description": "arccos"
+    },
+    "arctan": {
+        "prefix": "arctan",
+        "body": "\\arctan",
+        "description": "arctan"
+    },
+    "ln": {
+        "prefix": "ln",
+        "body": "\\ln",
+        "description": "ln"
+    },
+    "exp": {
+        "prefix": "exp",
+        "body": "\\exp",
+        "description": "exp"
+    },
+    "det": {
+        "prefix": "det",
+        "body": "\\det",
+        "description": "det"
+    },
+    "dim": {
+        "prefix": "dim",
+        "body": "\\dim",
+        "description": "dim"
+    },
+    "deg": {
+        "prefix": "deg",
+        "body": "\\deg",
+        "description": "deg"
+    },
+    "ker": {
+        "prefix": "ker",
+        "body": "\\ker",
+        "description": "ker"
+    },
+    "hom": {
+        "prefix": "hom",
+        "body": "\\hom",
+        "description": "hom"
+    },
+    "max": {
+        "prefix": "max",
+        "body": "\\max",
+        "description": "max"
+    },
+    "min": {
+        "prefix": "min",
+        "body": "\\min",
+        "description": "min"
+    },
+    "sup": {
+        "prefix": "sup",
+        "body": "\\sup",
+        "description": "sup"
+    },
+    "inf": {
+        "prefix": "inf",
+        "body": "\\inf",
+        "description": "inf"
+    },
+    "lim": {
+        "prefix": "lim",
+        "body": "\\lim",
+        "description": "lim"
+    },
+    "limsup": {
+        "prefix": "limsup",
+        "body": "\\limsup",
+        "description": "limsup"
+    },
+    "liminf": {
+        "prefix": "liminf",
+        "body": "\\liminf",
+        "description": "liminf"
+    },
+    "limb": {
+        "prefix": "limb",
+        "body": "\\lim_{${1:x} \\to ${2:a}}$0",
+        "description": "lim avec borne (x -> a)"
+    },
+    "sumb": {
+        "prefix": "sumb",
+        "body": "\\sum_{${1:i=1}}^{${2:n}}$0",
+        "description": "sum avec bornes"
+    },
+    "prodb": {
+        "prefix": "prodb",
+        "body": "\\prod_{${1:i=1}}^{${2:n}}$0",
+        "description": "prod avec bornes"
+    },
+    "intb": {
+        "prefix": "intb",
+        "body": "\\int_{${1:a}}^{${2:b}}$0",
+        "description": "int avec bornes"
+    }
+}

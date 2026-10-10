@@ -1,0 +1,1278 @@
+{
+    "quad": {
+        "prefix": "quad",
+        "body": "\\quad",
+        "description": "quad"
+    },
+    "LL": {
+        "prefix": "LL",
+        "body": "\\mathcal{L}(${1:E})$0",
+        "description": "mathcal{L}"
+    },
+    "MM": {
+        "prefix": "MM",
+        "body": "\\mathcal{M}_{${1:n}}($2)$0",
+        "description": "mathcal{M}"
+    },
+    "RR": {
+        "prefix": "RR",
+        "body": "\\mathbb{R}$0",
+        "description": "R (mathbb)"
+    },
+    "NN": {
+        "prefix": "NN",
+        "body": "\\mathbb{N}$0",
+        "description": "N (mathbb)"
+    },
+    "CC": {
+        "prefix": "CC",
+        "body": "\\mathbb{C}$0",
+        "description": "C (mathbb)"
+    },
+    "KK": {
+        "prefix": "KK",
+        "body": "\\mathbb{K}$0",
+        "description": "K (mathbb)"
+    },
+    "ZZ": {
+        "prefix": "ZZ",
+        "body": "\\mathbb{Z}$0",
+        "description": "Z (mathbb)"
+    },
+    "hat": {
+        "prefix": "hat",
+        "body": "\\hat{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "hat"
+    },
+    "check": {
+        "prefix": "check",
+        "body": "\\check{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "check"
+    },
+    "tilde": {
+        "prefix": "tilde",
+        "body": "\\tilde{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "tilde"
+    },
+    "grave": {
+        "prefix": "grave",
+        "body": "\\grave{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "grave"
+    },
+    "dot": {
+        "prefix": "dot",
+        "body": "\\dot{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "dot"
+    },
+    "ddot": {
+        "prefix": "ddot",
+        "body": "\\ddot{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "ddot"
+    },
+    "bar": {
+        "prefix": "bar",
+        "body": "\\bar{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "bar"
+    },
+    "vec": {
+        "prefix": "vec",
+        "body": "\\vec{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "vec"
+    },
+    "widehat": {
+        "prefix": "widehat",
+        "body": "\\widehat{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "widehat"
+    },
+    "acute": {
+        "prefix": "acute",
+        "body": "\\acute{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "acute"
+    },
+    "breve": {
+        "prefix": "breve",
+        "body": "\\breve{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "breve"
+    },
+    "widetilde": {
+        "prefix": "widetilde",
+        "body": "\\widetilde{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "widetilde"
+    },
+    "mathring": {
+        "prefix": "mathring",
+        "body": "\\mathring{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "mathring"
+    },
+    "xrightarrow": {
+        "prefix": "xrightarrow",
+        "body": "${1:A}\\xrightarrow{${2:f}}${3:B}",
+        "description": "xrightarrow"
+    },
+    "overrightarrow": {
+        "prefix": "overrightarrow",
+        "body": "\\overrightarrow{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "overrightarrow"
+    },
+    "underrightarrow": {
+        "prefix": "underrightarrow",
+        "body": "\\underrightarrow{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "underrightarrow"
+    },
+    "overleftarrow": {
+        "prefix": "overleftarrow",
+        "body": "\\overleftarrow{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "overleftarrow"
+    },
+    "underleftarrow": {
+        "prefix": "underleftarrow",
+        "body": "\\underleftarrow{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "underleftarrow"
+    },
+    "overleftrightarrow": {
+        "prefix": "overleftrightarrow",
+        "body": "\\overleftrightarrow{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "overleftrightarrow"
+    },
+    "underleftrightarrow": {
+        "prefix": "underleftrightarrow",
+        "body": "\\underleftrightarrow{${1:${TM_SELECTED_TEXT}}}$0",
+        "description": "underleftrightarrow"
+    },
+    "alpha": {
+        "prefix": "alpha",
+        "body": "\\alpha",
+        "description": "alpha"
+    },
+    "beta": {
+        "prefix": "beta",
+        "body": "\\beta",
+        "description": "beta"
+    },
+    "gamma": {
+        "prefix": "gamma",
+        "body": "\\gamma",
+        "description": "gamma"
+    },
+    "delta": {
+        "prefix": "delta",
+        "body": "\\delta",
+        "description": "delta"
+    },
+    "epsilon": {
+        "prefix": "epsilon",
+        "body": "\\epsilon",
+        "description": "epsilon"
+    },
+    "varepsilon": {
+        "prefix": "varepsilon",
+        "body": "\\varepsilon",
+        "description": "varepsilon"
+    },
+    "zeta": {
+        "prefix": "zeta",
+        "body": "\\zeta",
+        "description": "zeta"
+    },
+    "eta": {
+        "prefix": "eta",
+        "body": "\\eta",
+        "description": "eta"
+    },
+    "theta": {
+        "prefix": "theta",
+        "body": "\\theta",
+        "description": "theta"
+    },
+    "vartheta": {
+        "prefix": "vartheta",
+        "body": "\\vartheta",
+        "description": "vartheta"
+    },
+    "iota": {
+        "prefix": "iota",
+        "body": "\\iota",
+        "description": "iota"
+    },
+    "kappa": {
+        "prefix": "kappa",
+        "body": "\\kappa",
+        "description": "kappa"
+    },
+    "lambda": {
+        "prefix": "lambda",
+        "body": "\\lambda",
+        "description": "lambda"
+    },
+    "mu": {
+        "prefix": "mu",
+        "body": "\\mu",
+        "description": "mu"
+    },
+    "nu": {
+        "prefix": "nu",
+        "body": "\\nu",
+        "description": "nu"
+    },
+    "xi": {
+        "prefix": "xi",
+        "body": "\\xi",
+        "description": "xi"
+    },
+    "pi": {
+        "prefix": "pi",
+        "body": "\\pi",
+        "description": "pi"
+    },
+    "varpi": {
+        "prefix": "varpi",
+        "body": "\\varpi",
+        "description": "varpi"
+    },
+    "rho": {
+        "prefix": "rho",
+        "body": "\\rho",
+        "description": "rho"
+    },
+    "varrho": {
+        "prefix": "varrho",
+        "body": "\\varrho",
+        "description": "varrho"
+    },
+    "sigma": {
+        "prefix": "sigma",
+        "body": "\\sigma",
+        "description": "sigma"
+    },
+    "varsigma": {
+        "prefix": "varsigma",
+        "body": "\\varsigma",
+        "description": "varsigma"
+    },
+    "tau": {
+        "prefix": "tau",
+        "body": "\\tau",
+        "description": "tau"
+    },
+    "upsilon": {
+        "prefix": "upsilon",
+        "body": "\\upsilon",
+        "description": "upsilon"
+    },
+    "phi": {
+        "prefix": "phi",
+        "body": "\\phi",
+        "description": "phi"
+    },
+    "varphi": {
+        "prefix": "varphi",
+        "body": "\\varphi",
+        "description": "varphi"
+    },
+    "chi": {
+        "prefix": "chi",
+        "body": "\\chi",
+        "description": "chi"
+    },
+    "psi": {
+        "prefix": "psi",
+        "body": "\\psi",
+        "description": "psi"
+    },
+    "omega": {
+        "prefix": "omega",
+        "body": "\\omega",
+        "description": "omega"
+    },
+    "Gamma": {
+        "prefix": "Gamma",
+        "body": "\\Gamma",
+        "description": "Gamma"
+    },
+    "Delta": {
+        "prefix": "Delta",
+        "body": "\\Delta",
+        "description": "Delta"
+    },
+    "Theta": {
+        "prefix": "Theta",
+        "body": "\\Theta",
+        "description": "Theta"
+    },
+    "Lambda": {
+        "prefix": "Lambda",
+        "body": "\\Lambda",
+        "description": "Lambda"
+    },
+    "Xi": {
+        "prefix": "Xi",
+        "body": "\\Xi",
+        "description": "Xi"
+    },
+    "Pi": {
+        "prefix": "Pi",
+        "body": "\\Pi",
+        "description": "Pi"
+    },
+    "Sigma": {
+        "prefix": "Sigma",
+        "body": "\\Sigma",
+        "description": "Sigma"
+    },
+    "Upsilon": {
+        "prefix": "Upsilon",
+        "body": "\\Upsilon",
+        "description": "Upsilon"
+    },
+    "Phi": {
+        "prefix": "Phi",
+        "body": "\\Phi",
+        "description": "Phi"
+    },
+    "Psi": {
+        "prefix": "Psi",
+        "body": "\\Psi",
+        "description": "Psi"
+    },
+    "Omega": {
+        "prefix": "Omega",
+        "body": "\\Omega",
+        "description": "Omega"
+    },
+    "lbrack": {
+        "prefix": "lbrack",
+        "body": "\\lbrack",
+        "description": "lbrack"
+    },
+    "rbrack": {
+        "prefix": "rbrack",
+        "body": "\\rbrack",
+        "description": "rbrack"
+    },
+    "uparrow": {
+        "prefix": "uparrow",
+        "body": "\\uparrow",
+        "description": "uparrow"
+    },
+    "downarrow": {
+        "prefix": "downarrow",
+        "body": "\\downarrow",
+        "description": "downarrow"
+    },
+    "updownarrow": {
+        "prefix": "updownarrow",
+        "body": "\\updownarrow",
+        "description": "updownarrow"
+    },
+    "lbrace": {
+        "prefix": "lbrace",
+        "body": "\\{",
+        "description": "lbrace"
+    },
+    "rbrace": {
+        "prefix": "rbrace",
+        "body": "\\}",
+        "description": "rbrace"
+    },
+    "langle": {
+        "prefix": "langle",
+        "body": "\\langle",
+        "description": "langle"
+    },
+    "rangle": {
+        "prefix": "rangle",
+        "body": "\\rangle",
+        "description": "rangle"
+    },
+    "Uparrow": {
+        "prefix": "Uparrow",
+        "body": "\\Uparrow",
+        "description": "Uparrow"
+    },
+    "Downarrow": {
+        "prefix": "Downarrow",
+        "body": "\\Downarrow",
+        "description": "Downarrow"
+    },
+    "Updownarrow": {
+        "prefix": "Updownarrow",
+        "body": "\\Updownarrow",
+        "description": "Updownarrow"
+    },
+    "vert": {
+        "prefix": "vert",
+        "body": "\\vert",
+        "description": "vert"
+    },
+    "Vert": {
+        "prefix": "Vert",
+        "body": "\\Vert",
+        "description": "Vert"
+    },
+    "backslash": {
+        "prefix": "backslash",
+        "body": "\\backslash",
+        "description": "backslash"
+    },
+    "lfloor": {
+        "prefix": "lfloor",
+        "body": "\\lfloor",
+        "description": "lfloor"
+    },
+    "rfloor": {
+        "prefix": "rfloor",
+        "body": "\\rfloor",
+        "description": "rfloor"
+    },
+    "lceil": {
+        "prefix": "lceil",
+        "body": "\\lceil",
+        "description": "lceil"
+    },
+    "rceil": {
+        "prefix": "rceil",
+        "body": "\\rceil",
+        "description": "rceil"
+    },
+    "lgroup": {
+        "prefix": "lgroup",
+        "body": "\\lgroup",
+        "description": "lgroup"
+    },
+    "rgroup": {
+        "prefix": "rgroup",
+        "body": "\\rgroup",
+        "description": "rgroup"
+    },
+    "lmoustache": {
+        "prefix": "lmoustache",
+        "body": "\\lmoustache",
+        "description": "lmoustache"
+    },
+    "rmoustache": {
+        "prefix": "rmoustache",
+        "body": "\\rmoustache",
+        "description": "rmoustache"
+    },
+    "arrowvert": {
+        "prefix": "arrowvert",
+        "body": "\\arrowvert",
+        "description": "arrowvert"
+    },
+    "Arrowvert": {
+        "prefix": "Arrowvert",
+        "body": "\\Arrowvert",
+        "description": "Arrowvert"
+    },
+    "bracevert": {
+        "prefix": "bracevert",
+        "body": "\\bracevert",
+        "description": "bracevert"
+    },
+    "leq": {
+        "prefix": "leqslant",
+        "body": "\\leqslant",
+        "description": "leqslant"
+    },
+    "le": {
+        "prefix": "le",
+        "body": "\\le",
+        "description": "le"
+    },
+    "geq": {
+        "prefix": "geqslant",
+        "body": "\\geqslant",
+        "description": "geqslant"
+    },
+    "ge": {
+        "prefix": "ge",
+        "body": "\\ge",
+        "description": "ge"
+    },
+    "equiv": {
+        "prefix": "equiv",
+        "body": "\\equiv",
+        "description": "equiv"
+    },
+    "ll": {
+        "prefix": "ll",
+        "body": "\\ll",
+        "description": "ll"
+    },
+    "gg": {
+        "prefix": "gg",
+        "body": "\\gg",
+        "description": "gg"
+    },
+    "doteq": {
+        "prefix": "doteq",
+        "body": "\\doteq",
+        "description": "doteq"
+    },
+    "prec": {
+        "prefix": "prec",
+        "body": "\\prec",
+        "description": "prec"
+    },
+    "succ": {
+        "prefix": "succ",
+        "body": "\\succ",
+        "description": "succ"
+    },
+    "sim": {
+        "prefix": "sim",
+        "body": "\\sim",
+        "description": "sim"
+    },
+    "preceq": {
+        "prefix": "preceq",
+        "body": "\\preceq",
+        "description": "preceq"
+    },
+    "succeq": {
+        "prefix": "succeq",
+        "body": "\\succeq",
+        "description": "succeq"
+    },
+    "simeq": {
+        "prefix": "simeq",
+        "body": "\\simeq",
+        "description": "simeq"
+    },
+    "subset": {
+        "prefix": "subset",
+        "body": "\\subset",
+        "description": "subset"
+    },
+    "supset": {
+        "prefix": "supset",
+        "body": "\\supset",
+        "description": "supset"
+    },
+    "approx": {
+        "prefix": "approx",
+        "body": "\\approx",
+        "description": "approx"
+    },
+    "subseteq": {
+        "prefix": "subseteq",
+        "body": "\\subseteq",
+        "description": "subseteq"
+    },
+    "supseteq": {
+        "prefix": "supseteq",
+        "body": "\\supseteq",
+        "description": "supseteq"
+    },
+    "cong": {
+        "prefix": "cong",
+        "body": "\\cong",
+        "description": "cong"
+    },
+    "sqsubset": {
+        "prefix": "sqsubset",
+        "body": "\\sqsubset",
+        "description": "sqsubset"
+    },
+    "sqsupset": {
+        "prefix": "sqsupset",
+        "body": "\\sqsupset",
+        "description": "sqsupset"
+    },
+    "Join": {
+        "prefix": "Join",
+        "body": "\\Join",
+        "description": "Join"
+    },
+    "sqsubseteq": {
+        "prefix": "sqsubseteq",
+        "body": "\\sqsubseteq",
+        "description": "sqsubseteq"
+    },
+    "sqsupseteq": {
+        "prefix": "sqsupseteq",
+        "body": "\\sqsupseteq",
+        "description": "sqsupseteq"
+    },
+    "bowtie": {
+        "prefix": "bowtie",
+        "body": "\\bowtie",
+        "description": "bowtie"
+    },
+    "in": {
+        "prefix": "in",
+        "body": "\\in",
+        "description": "in"
+    },
+    "ni": {
+        "prefix": "ni",
+        "body": "\\ni",
+        "description": "ni"
+    },
+    "owns": {
+        "prefix": "owns",
+        "body": "\\owns",
+        "description": "owns"
+    },
+    "propto": {
+        "prefix": "propto",
+        "body": "\\propto",
+        "description": "propto"
+    },
+    "vdash": {
+        "prefix": "vdash",
+        "body": "\\vdash",
+        "description": "vdash"
+    },
+    "dashv": {
+        "prefix": "dashv",
+        "body": "\\dashv",
+        "description": "dashv"
+    },
+    "models": {
+        "prefix": "models",
+        "body": "\\models",
+        "description": "models"
+    },
+    "mid": {
+        "prefix": "mid",
+        "body": "\\mid",
+        "description": "mid"
+    },
+    "parallel": {
+        "prefix": "parallel",
+        "body": "\\parallel",
+        "description": "parallel"
+    },
+    "perp": {
+        "prefix": "perp",
+        "body": "\\perp",
+        "description": "perp"
+    },
+    "smile": {
+        "prefix": "smile",
+        "body": "\\smile",
+        "description": "smile"
+    },
+    "frown": {
+        "prefix": "frown",
+        "body": "\\frown",
+        "description": "frown"
+    },
+    "asymp": {
+        "prefix": "asymp",
+        "body": "\\asymp",
+        "description": "asymp"
+    },
+    "notin": {
+        "prefix": "notin",
+        "body": "\\notin",
+        "description": "notin"
+    },
+    "neq": {
+        "prefix": "neq",
+        "body": "\\neq",
+        "description": "neq"
+    },
+    "ne": {
+        "prefix": "ne",
+        "body": "\\ne",
+        "description": "ne"
+    },
+    "not": {
+        "prefix": "not",
+        "body": "\\not",
+        "description": "not"
+    },
+    "pm": {
+        "prefix": "pm",
+        "body": "\\pm",
+        "description": "pm"
+    },
+    "mp": {
+        "prefix": "mp",
+        "body": "\\mp",
+        "description": "mp"
+    },
+    "triangleleft": {
+        "prefix": "triangleleft",
+        "body": "\\triangleleft",
+        "description": "triangleleft"
+    },
+    "cdot": {
+        "prefix": "cdot",
+        "body": "\\cdot",
+        "description": "cdot"
+    },
+    "div": {
+        "prefix": "div",
+        "body": "\\div",
+        "description": "div"
+    },
+    "triangleright": {
+        "prefix": "triangleright",
+        "body": "\\triangleright",
+        "description": "triangleright"
+    },
+    "times": {
+        "prefix": "times",
+        "body": "\\times",
+        "description": "times"
+    },
+    "setminus": {
+        "prefix": "setminus",
+        "body": "\\setminus",
+        "description": "setminus"
+    },
+    "star": {
+        "prefix": "star",
+        "body": "\\star",
+        "description": "star"
+    },
+    "cup": {
+        "prefix": "cup",
+        "body": "\\cup",
+        "description": "cup"
+    },
+    "cap": {
+        "prefix": "cap",
+        "body": "\\cap",
+        "description": "cap"
+    },
+    "ast": {
+        "prefix": "ast",
+        "body": "\\ast",
+        "description": "ast"
+    },
+    "sqcup": {
+        "prefix": "sqcup",
+        "body": "\\sqcup",
+        "description": "sqcup"
+    },
+    "sqcap": {
+        "prefix": "sqcap",
+        "body": "\\sqcap",
+        "description": "sqcap"
+    },
+    "circ": {
+        "prefix": "circ",
+        "body": "\\circ",
+        "description": "circ"
+    },
+    "vee": {
+        "prefix": "vee",
+        "body": "\\vee",
+        "description": "vee"
+    },
+    "lor": {
+        "prefix": "lor",
+        "body": "\\lor",
+        "description": "lor"
+    },
+    "wedge": {
+        "prefix": "wedge",
+        "body": "\\wedge",
+        "description": "wedge"
+    },
+    "land": {
+        "prefix": "land",
+        "body": "\\land",
+        "description": "land"
+    },
+    "bullet": {
+        "prefix": "bullet",
+        "body": "\\bullet",
+        "description": "bullet"
+    },
+    "oplus": {
+        "prefix": "oplus",
+        "body": "\\oplus",
+        "description": "oplus"
+    },
+    "ominus": {
+        "prefix": "ominus",
+        "body": "\\ominus",
+        "description": "ominus"
+    },
+    "diamond": {
+        "prefix": "diamond",
+        "body": "\\diamond",
+        "description": "diamond"
+    },
+    "odot": {
+        "prefix": "odot",
+        "body": "\\odot",
+        "description": "odot"
+    },
+    "oslash": {
+        "prefix": "oslash",
+        "body": "\\oslash",
+        "description": "oslash"
+    },
+    "uplus": {
+        "prefix": "uplus",
+        "body": "\\uplus",
+        "description": "uplus"
+    },
+    "otimes": {
+        "prefix": "otimes",
+        "body": "\\otimes",
+        "description": "otimes"
+    },
+    "bigcirc": {
+        "prefix": "bigcirc",
+        "body": "\\bigcirc",
+        "description": "bigcirc"
+    },
+    "amalg": {
+        "prefix": "amalg",
+        "body": "\\amalg",
+        "description": "amalg"
+    },
+    "bigtriangleup": {
+        "prefix": "bigtriangleup",
+        "body": "\\bigtriangleup",
+        "description": "bigtriangleup"
+    },
+    "bigtriangledown": {
+        "prefix": "bigtriangledown",
+        "body": "\\bigtriangledown",
+        "description": "bigtriangledown"
+    },
+    "dagger": {
+        "prefix": "dagger",
+        "body": "\\dagger",
+        "description": "dagger"
+    },
+    "lhd": {
+        "prefix": "lhd",
+        "body": "\\lhd",
+        "description": "lhd"
+    },
+    "rhd": {
+        "prefix": "rhd",
+        "body": "\\rhd",
+        "description": "rhd"
+    },
+    "ddagger": {
+        "prefix": "ddagger",
+        "body": "\\ddagger",
+        "description": "ddagger"
+    },
+    "unlhd": {
+        "prefix": "unlhd",
+        "body": "\\unlhd",
+        "description": "unlhd"
+    },
+    "unrhd": {
+        "prefix": "unrhd",
+        "body": "\\unrhd",
+        "description": "unrhd"
+    },
+    "wr": {
+        "prefix": "wr",
+        "body": "\\wr",
+        "description": "wr"
+    },
+    "sum": {
+        "prefix": "sum",
+        "body": "\\sum",
+        "description": "sum"
+    },
+    "bigcup": {
+        "prefix": "bigcup",
+        "body": "\\bigcup",
+        "description": "bigcup"
+    },
+    "bigvee": {
+        "prefix": "bigvee",
+        "body": "\\bigvee",
+        "description": "bigvee"
+    },
+    "prod": {
+        "prefix": "prod",
+        "body": "\\prod",
+        "description": "prod"
+    },
+    "bigcap": {
+        "prefix": "bigcap",
+        "body": "\\bigcap",
+        "description": "bigcap"
+    },
+    "bigwedge": {
+        "prefix": "bigwedge",
+        "body": "\\bigwedge",
+        "description": "bigwedge"
+    },
+    "coprod": {
+        "prefix": "coprod",
+        "body": "\\coprod",
+        "description": "coprod"
+    },
+    "bigsqcup": {
+        "prefix": "bigsqcup",
+        "body": "\\bigsqcup",
+        "description": "bigsqcup"
+    },
+    "biguplus": {
+        "prefix": "biguplus",
+        "body": "\\biguplus",
+        "description": "biguplus"
+    },
+    "int": {
+        "prefix": "int",
+        "body": "\\int",
+        "description": "int"
+    },
+    "oint": {
+        "prefix": "oint",
+        "body": "\\oint",
+        "description": "oint"
+    },
+    "bigodot": {
+        "prefix": "bigodot",
+        "body": "\\bigodot",
+        "description": "bigodot"
+    },
+    "bigoplus": {
+        "prefix": "bigoplus",
+        "body": "\\bigoplus",
+        "description": "bigoplus"
+    },
+    "bigotimes": {
+        "prefix": "bigotimes",
+        "body": "\\bigotimes",
+        "description": "bigotimes"
+    },
+    "leftarrow": {
+        "prefix": "leftarrow",
+        "body": "\\leftarrow",
+        "description": "leftarrow"
+    },
+    "gets": {
+        "prefix": "gets",
+        "body": "\\gets",
+        "description": "gets"
+    },
+    "longleftarrow": {
+        "prefix": "longleftarrow",
+        "body": "\\longleftarrow",
+        "description": "longleftarrow"
+    },
+    "rightarrow": {
+        "prefix": "rightarrow",
+        "body": "\\rightarrow",
+        "description": "rightarrow"
+    },
+    "to": {
+        "prefix": "to",
+        "body": "\\to",
+        "description": "to"
+    },
+    "longrightarrow": {
+        "prefix": "longrightarrow",
+        "body": "\\longrightarrow",
+        "description": "longrightarrow"
+    },
+    "leftrightarrow": {
+        "prefix": "leftrightarrow",
+        "body": "\\leftrightarrow",
+        "description": "leftrightarrow"
+    },
+    "longleftrightarrow": {
+        "prefix": "longleftrightarrow",
+        "body": "\\longleftrightarrow",
+        "description": "longleftrightarrow"
+    },
+    "Leftarrow": {
+        "prefix": "Leftarrow",
+        "body": "\\Leftarrow",
+        "description": "Leftarrow"
+    },
+    "Longleftarrow": {
+        "prefix": "Longleftarrow",
+        "body": "\\Longleftarrow",
+        "description": "Longleftarrow"
+    },
+    "Rightarrow": {
+        "prefix": "Rightarrow",
+        "body": "\\Rightarrow",
+        "description": "Rightarrow"
+    },
+    "Longrightarrow": {
+        "prefix": "Longrightarrow",
+        "body": "\\Longrightarrow",
+        "description": "Longrightarrow"
+    },
+    "Leftrightarrow": {
+        "prefix": "Leftrightarrow",
+        "body": "\\Leftrightarrow",
+        "description": "Leftrightarrow"
+    },
+    "Longleftrightarrow": {
+        "prefix": "Longleftrightarrow",
+        "body": "\\Longleftrightarrow",
+        "description": "Longleftrightarrow"
+    },
+    "mapsto": {
+        "prefix": "mapsto",
+        "body": "\\mapsto",
+        "description": "mapsto"
+    },
+    "longmapsto": {
+        "prefix": "longmapsto",
+        "body": "\\longmapsto",
+        "description": "longmapsto"
+    },
+    "hookleftarrow": {
+        "prefix": "hookleftarrow",
+        "body": "\\hookleftarrow",
+        "description": "hookleftarrow"
+    },
+    "hookrightarrow": {
+        "prefix": "hookrightarrow",
+        "body": "\\hookrightarrow",
+        "description": "hookrightarrow"
+    },
+    "leftharpoonup": {
+        "prefix": "leftharpoonup",
+        "body": "\\leftharpoonup",
+        "description": "leftharpoonup"
+    },
+    "rightharpoonup": {
+        "prefix": "rightharpoonup",
+        "body": "\\rightharpoonup",
+        "description": "rightharpoonup"
+    },
+    "leftharpoondown": {
+        "prefix": "leftharpoondown",
+        "body": "\\leftharpoondown",
+        "description": "leftharpoondown"
+    },
+    "rightharpoondown": {
+        "prefix": "rightharpoondown",
+        "body": "\\rightharpoondown",
+        "description": "rightharpoondown"
+    },
+    "rightleftharpoons": {
+        "prefix": "rightleftharpoons",
+        "body": "\\rightleftharpoons",
+        "description": "rightleftharpoons"
+    },
+    "iff": {
+        "prefix": "iff",
+        "body": "\\iff",
+        "description": "iff"
+    },
+    "nearrow": {
+        "prefix": "nearrow",
+        "body": "\\nearrow",
+        "description": "nearrow"
+    },
+    "searrow": {
+        "prefix": "searrow",
+        "body": "\\searrow",
+        "description": "searrow"
+    },
+    "swarrow": {
+        "prefix": "swarrow",
+        "body": "\\swarrow",
+        "description": "swarrow"
+    },
+    "nwarrow": {
+        "prefix": "nwarrow",
+        "body": "\\nwarrow",
+        "description": "nwarrow"
+    },
+    "leadsto": {
+        "prefix": "leadsto",
+        "body": "\\leadsto",
+        "description": "leadsto"
+    },
+    "dots": {
+        "prefix": "dots",
+        "body": "\\dots,",
+        "description": "..."
+        }
+    ,
+    "cdots": {
+        "prefix": "cdots",
+        "body": "\\cdots",
+        "description": "cdots"
+    },
+    "vdots": {
+        "prefix": "vdots",
+        "body": "\\vdots",
+        "description": "vdots"
+    },
+    "ddots": {
+        "prefix": "ddots",
+        "body": "\\ddots",
+        "description": "ddots"
+    },
+    "ldots": {
+        "prefix": "ldots",
+        "body": "\\ldots",
+        "description": "ldots"
+    },
+    "hbar": {
+        "prefix": "hbar",
+        "body": "\\hbar",
+        "description": "hbar"
+    },
+    "imath": {
+        "prefix": "imath",
+        "body": "\\imath",
+        "description": "imath"
+    },
+    "jmath": {
+        "prefix": "jmath",
+        "body": "\\jmath",
+        "description": "jmath"
+    },
+    "ell": {
+        "prefix": "ell",
+        "body": "\\ell",
+        "description": "ell"
+    },
+    "Re": {
+        "prefix": "Re",
+        "body": "\\Re",
+        "description": "Re"
+    },
+    "Im": {
+        "prefix": "Im",
+        "body": "\\Im",
+        "description": "Im"
+    },
+    "aleph": {
+        "prefix": "aleph",
+        "body": "\\aleph",
+        "description": "aleph"
+    },
+    "wp": {
+        "prefix": "wp",
+        "body": "\\wp",
+        "description": "wp"
+    },
+    "forall": {
+        "prefix": "forall",
+        "body": "\\forall",
+        "description": "forall"
+    },
+    "exists": {
+        "prefix": "exists",
+        "body": "\\exists",
+        "description": "exists"
+    },
+    "mho": {
+        "prefix": "mho",
+        "body": "\\mho",
+        "description": "mho"
+    },
+    "partial": {
+        "prefix": "partial",
+        "body": "\\partial",
+        "description": "partial"
+    },
+    "prime": {
+        "prefix": "prime",
+        "body": "\\prime",
+        "description": "prime"
+    },
+    "emptyset": {
+        "prefix": "emptyset",
+        "body": "\\emptyset",
+        "description": "emptyset"
+    },
+    "infty": {
+        "prefix": "infty",
+        "body": "+\\infty",
+        "description": "infty"
+    },
+    "nabla": {
+        "prefix": "nabla",
+        "body": "\\nabla",
+        "description": "nabla"
+    },
+    "triangle": {
+        "prefix": "triangle",
+        "body": "\\triangle",
+        "description": "triangle"
+    },
+    "Box": {
+        "prefix": "Box",
+        "body": "\\Box",
+        "description": "Box"
+    },
+    "Diamond": {
+        "prefix": "Diamond",
+        "body": "\\Diamond",
+        "description": "Diamond"
+    },
+    "bot": {
+        "prefix": "bot",
+        "body": "\\bot",
+        "description": "bot"
+    },
+    "top": {
+        "prefix": "top",
+        "body": "\\top",
+        "description": "top"
+    },
+    "angle": {
+        "prefix": "angle",
+        "body": "\\angle",
+        "description": "angle"
+    },
+    "surd": {
+        "prefix": "surd",
+        "body": "\\surd",
+        "description": "surd"
+    },
+    "diamondsuit": {
+        "prefix": "diamondsuit",
+        "body": "\\diamondsuit",
+        "description": "diamondsuit"
+    },
+    "heartsuit": {
+        "prefix": "heartsuit",
+        "body": "\\heartsuit",
+        "description": "heartsuit"
+    },
+    "clubsuit": {
+        "prefix": "clubsuit",
+        "body": "\\clubsuit",
+        "description": "clubsuit"
+    },
+    "spadesuit": {
+        "prefix": "spadesuit",
+        "body": "\\spadesuit",
+        "description": "spadesuit"
+    },
+    "neg": {
+        "prefix": "neg",
+        "body": "\\neg",
+        "description": "neg"
+    },
+    "lnot": {
+        "prefix": "lnot",
+        "body": "\\lnot",
+        "description": "lnot"
+    },
+    "flat": {
+        "prefix": "flat",
+        "body": "\\flat",
+        "description": "flat"
+    },
+    "natural": {
+        "prefix": "natural",
+        "body": "\\natural",
+        "description": "natural"
+    },
+    "sharp": {
+        "prefix": "sharp",
+        "body": "\\sharp",
+        "description": "sharp"
+    }
+}

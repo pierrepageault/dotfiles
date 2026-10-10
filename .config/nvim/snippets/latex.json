@@ -1,0 +1,22 @@
+{
+	"Inline math": {
+		"prefix": ",,",
+		"body": "\\\\( ${1:${TM_SELECTED_TEXT}} \\\\)$0",
+		"description": "Inline math",
+		"luasnip": {
+			"autotrigger": true
+		}
+	},
+	"Display math": {
+		"prefix": "dm",
+		"body": [
+			"\\\\[",
+			"\t${1:${TM_SELECTED_TEXT}}",
+			"\\\\]$0"
+		],
+		"description": "Display math",
+		"luasnip": {
+			"autotrigger": true
+		}
+	}
+}

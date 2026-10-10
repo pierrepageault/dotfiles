@@ -1,0 +1,67 @@
+{
+	"corollaire": {
+		"prefix": "corollaire",
+		"body": "::: {#cor-${1:desc}}\n$2\n:::\n$0",
+		"description": "corollaire"
+	},
+	"include": {
+		"prefix": "include",
+		"body": "{{< include ${1:path} >}}$0",
+		"descriprion": "include file"
+	},
+	"lemme": {
+		"prefix": "lem",
+		"body": "::: {#lem-${1:desc}}\n$2\n:::\n$0",
+		"description": "lemme"
+	},
+	"Details": {
+		"prefix": "details",
+		"body": "::: {.details}\n\n${1:${TM_SELECTED_TEXT}}\n\n:::$0",
+		"description": "Détails"
+	},
+	"Proposition": {
+		"prefix": "prp",
+		"body": "::: {#prp-${1:desc}}\n$2\n:::\n$0",
+		"description": "Nouvelle proposition"
+	},
+	"Théorème": {
+		"prefix": "thm",
+		"body": "::: {#thm-${1:desc}}\n$2\n:::\n$0",
+		"description": "Nouveau théorème"
+	},
+	"Définition": {
+		"prefix": "def",
+		"body": "::: {#def-${1:desc}}\n$2\n:::\n$0",
+		"description": "Nouvelle définition"
+	},
+	"Remarque": {
+		"prefix": "rem",
+		"body": "::: {#rem-${1:desc}}\n$2\n:::\n$0",
+		"description": "Nouvelle remarque"
+	},
+	"Figure": {
+		"prefix": "fig",
+		"body": "::: {#fig-${1:desc}}\n$2\n:::\n$0",
+		"description": "Nouvelle figure"
+	},
+	"Exemple": {
+		"prefix": "exm",
+		"body": "::: {#exm-${1:desc}}\n$2\n:::\n$0",
+		"description": "Nouvel exemple"
+	},
+	"Attention": {
+		"prefix": "warning",
+		"body": "::: {#wrn-${1:desc} .callout-warning}\n$2\n:::\n$0",
+		"description": "Nouveau warning"
+	},
+	"Note": {
+		"prefix": "note",
+		"body": "::: {#nte-${1:desc} .callout-note}\n$2\n:::\n$0",
+		"description": "Nouvelle note"
+	},
+	"Tip": {
+		"prefix": "tip",
+		"body": "::: {#tip-${1:desc} .callout-tip}\n$2\n:::\n$0",
+		"description": "Nouveau tip"
+	}
+}

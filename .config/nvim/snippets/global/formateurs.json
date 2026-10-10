@@ -1,0 +1,55 @@
+{
+	"operatorname": {
+		"prefix": "operatorname",
+		"body": "\\operatorname{${1:${TM_SELECTED_TEXT}}}$0",
+		"description": "operatorname"
+	},
+	"mathrm": {
+		"prefix": "MRM",
+		"body": "\\mathrm{${1:${TM_SELECTED_TEXT}}}$0",
+		"description": "mathrm"
+	},
+	"mathbf": {
+		"prefix": "MBF",
+		"body": "\\mathbf{${1:${TM_SELECTED_TEXT}}}$0",
+		"description": "mathbf"
+	},
+	"mathbb": {
+		"prefix": "MBB",
+		"body": "\\mathbb{${1:${TM_SELECTED_TEXT}}}$0",
+		"description": "mathbb",
+		"luasnip": {
+			"autosnippet": true
+		}
+	},
+	"mathcal": {
+		"prefix": "MCA",
+		"body": "\\mathcal{${1:${TM_SELECTED_TEXT}}}$0",
+		"description": "mathcal"
+	},
+	"mathfrak": {
+		"prefix": "MFR",
+		"body": "\\mathfrak{${1:${TM_SELECTED_TEXT}}}$0",
+		"description": "mathfrak"
+	},
+	"emph": {
+		"prefix": "FEM",
+		"body": "\\emph{${1:${TM_SELECTED_TEXT:text}}}",
+		"description": "emphasis font"
+	},
+	"texttt": {
+		"prefix": "FTT",
+		"body": "\\texttt{${1:${TM_SELECTED_TEXT:text}}}",
+		"description": "typewriter font"
+	},
+	"textbf": {
+		"prefix": "FBF",
+		"body": "\\textbf{${1:${TM_SELECTED_TEXT:text}}}",
+		"description": "bold font"
+	},
+	"displaystyle": {
+		"prefix": "displaystyle",
+		"body": "\\displaystyle",
+		"description": "displaystyle"
+	}
+}

@@ -1,0 +1,25 @@
+/* 1. Applique le fond bleu-gris de GitHub sur toute la surface de la fenêtre */
+html {
+    background-color: #f6f8fa 
+}
+
+/* S'applique à l'ensemble du corps du document HTML généré */
+body {
+    max-width: 700px;    /* Définit la largeur maximale de la colonne de texte */
+    width: 100%;         /* S'assure que la colonne occupe l'espace disponible sur petit écran */
+    margin-left: auto;   /* Centre la colonne horizontalement en calculant automatiquement... */
+    margin-right: auto;  /* ...les marges à gauche et à droite */
+    padding: 20px;       /* Ajoute une petite sécurité pour que le texte ne colle pas aux bords sur smartphone */
+}
+
+/* Modifie le comportement de toutes vos images */
+p > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* ÉLÉMENTS À AJOUTER : */
+    width: 25%;       /* Augmente l'occupation horizontale (ajustez le % selon vos souhaits) */
+    max-width: 800px; /* Sécurité pour éviter que le SVG ne devienne géant sur un écran ultra-large */
+    height: auto;     /* Conserve parfaitement les proportions d'origine du diagramme */
+}
