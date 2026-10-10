@@ -1,4 +1,24 @@
 {
+    "(": {
+        "prefix": "(",
+        "body": "(${1:${TM_SELECTED_TEXT}})$0",
+        "description": "parenthèses",
+        "luasnip": {
+            "autotrigger": true,
+            "wordTrig": false,
+            "priority": 100
+        }
+    },
+    "[": {
+        "prefix": "[",
+        "body": "[${1:${TM_SELECTED_TEXT}}]$0",
+        "description": "crochets",
+        "luasnip": {
+            "autotrigger": true,
+            "wordTrig": false,
+            "priority": 100
+        }
+    },
     "subscript": {
         "prefix": "fd",
         "body": "_{${1:${TM_SELECTED_TEXT}}}$0",
@@ -85,22 +105,40 @@
     "lr(": {
         "prefix": "lr(",
         "body": "\\left(${1:${TM_SELECTED_TEXT}}\\right)$0",
-        "description": "\\left( ... \\right)"
+        "description": "\\left( ... \\right)",
+        "luasnip": {
+            "autotrigger": true,
+            "wordTrig": false,
+            "priority": 2000
+        }
     },
     "lr[": {
         "prefix": "lr[",
         "body": "\\left[${1:${TM_SELECTED_TEXT}}\\right]$0",
-        "description": "\\left[ ... \\right]"
+        "description": "\\left[ ... \\right]",
+        "luasnip": {
+            "autotrigger": true,
+            "wordTrig": false,
+            "priority": 2000
+        }
     },
     "lr{": {
         "prefix": "lr{",
         "body": "\\left\\{${1:${TM_SELECTED_TEXT}}\\right\\}$0",
-        "description": "\\left\\{ ... \\right\\}"
+        "description": "\\left\\{ ... \\right\\}",
+        "luasnip": {
+            "autotrigger": true,
+            "wordTrig": false
+        }
     },
     "lr|": {
         "prefix": "lr|",
         "body": "\\left|${1:${TM_SELECTED_TEXT}}\\right|$0",
-        "description": "\\left| ... \\right| (valeur absolue)"
+        "description": "\\left| ... \\right| (valeur absolue)",
+        "luasnip": {
+            "autotrigger": true,
+            "wordTrig": false
+        }
     },
     "sin": {
         "prefix": "sin",
